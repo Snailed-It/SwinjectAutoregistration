@@ -15,7 +15,7 @@ let package = Package(
 
     ],
     dependencies: [
-        .package(url: "https://github.com/Swinject/Swinject.git", from: "2.9.1")
+        .package(url: "https://github.com/Swinject/Swinject.git", .branch("restore-loggingFunction"))
     ],
     targets: [
         .target(
