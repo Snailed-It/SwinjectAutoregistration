@@ -15,7 +15,7 @@ let package = Package(
 
     ],
     dependencies: [
-        .package(url: "https://github.com/Swinject/Swinject.git", .upToNextMajor(from: "2.10.1"))
+        .package(url: "https://github.com/Snailed-It/Swinject.git", .upToNextMajor(from: "2.10.1"))
     ],
     targets: [
         .target(
